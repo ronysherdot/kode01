@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">BudayaEnde</string>
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+
+    <!-- Sejarah -->
+
+    <string name="sejarahEnde1">
+        Ende merupakan Kota Kabupaten yang terletak di tengah-tengah pulau Flores,
+        Propinsi Nusa Tenggara Timur (NTT). Di wilayah Kabupaten Ende terdapat dua
+        suku yang mendiami daerah tersebut, yakni suku Ende dan Suku Lio. Pada umumnya suku Lio
+        bermukim di daerah pegunungan. Lokasinya sekitar wilayah utara Kabupaten Ende.
+        Dan suku Ende bermukim di daerah pesisir yakni bagian selatan Kabupaten Ende.</string>
+
+    <string name="sejarahEnde2">
+        Pada dasarnya, bentuk kebudayaan kedua suku ini hampir sama,
+        yang membedakannya adalah hasil pencampuran kebudayaan atau akulturasi.
+        Budaya suku Lio merupakan perpaduan suku asli daerah Lio dengan ajaran Kristen Katolik yang dibawah oleh bangsa Belanda.
+        Sedangkan budaya suku Ende merupakan perpaduan budaya asli daerah Ende dengan budaya Islam yang dibawah oleh pedagang-pedagang dari Sulawesi, yakni Makasar.
+    </string>
+
+    <!-- Tarian Adat -->
+
+    <string name="tarian1">Nama Tari Gawi berasal dari dua kata yaitu
+        "Ga" yang berarti segan atau sungkan dan "Wi" yang berarti menarik.
+        Tari Gawi juga dapat diartikan menyatukan diri, itulah kenapa dalam tarian ini semua penarinya saling berpegangan tangan dan membentuk lingkaran.
+        Ini menggambarkan bagaimana rasa persatuan, kebersamaan dan persaudaraan yang terjalin di antara mereka begitu erat.
+    </string>
+
+    <string name="tarian2">
+        Gerakan tarian ini cukup sederhana, saling bepegangan tangan, gerakannya lebih didominasi gerakan kaki maju, mundur, ke kiri dan ke kanan secara bersamaan.
+        Sedangkan gerakan tangan hanya diayun-ayunkan. Selama menarikannya kelompok penari Gawi dipimpin oleh seorang yang disebut Eko Wawi atau Ata Sodha, yang memimpin tarian dan menyanyikan syair.
+        Dan di dalam barisan para penari terdapat pemimpin tarian yang disebut Ulu. Dan seorang yang mengiringi gerakan dengan syair yang dibawakan oleh Ata Sodha.
+    </string>
+
+    <string name="tarian3">
+        Para penari Gawi biasanya menggunakan kostum pakaian adat. Untuk penari laki-laki menggunakan kaos berwarna putih dan sarung serta kain tenun dan destar (ikat kepala). Sedangkan untuk penari perempuan menggunakan baju khas Ende, sarung ikat dan tenun.
+        Pementasan Tari Gawi biasanya pada upacara-upacara, seperti pengangkatan kepala suku  (Wake Ria Renggi Beba), pembangunan rumah adat, mengumpulkan hasil panen dalam lumbung padi, dll.
+        Tari Gawi memiliki banyak makna, diantaranya makna religius yang terungkap pada syairnya mengagungkan kebesaran Tuhan Yang Maha Kuasa. Makna Persatuan terlihat pada koreografi gawi, dalam bentuk lingkaran dan berpengangan tangan, simbol kebersamaan dalam kehidupan masyarakat Lio.
+    </string>
+
+    <!-- Musik -->
+
+    <string name="musik1">
+        Keberagaman Indonesia tidak perlu diragukan lagi, salah satunya terlihat dari keberagaman alat musik di Indonesia. Masyarakat Indonesia juga terkenal kreatif dalam memanfaatkan sumber daya alam di sekitarnya, salah satunya dengan memanfaatkan labu hutan sebagai alat musik.
+        Alat musik tersebut bernama Sato, tentu tidak setenar alat musik lainnya sehingga membuat banyak orang penasaran jika mendengar namanya. Kekhasan alat musik gesek Sato ini hanya bisa ditemukan di Kabupaten Ende, tepatnya di Desa Waturaka, Kecamatan Kelimutu, Kabupaten Ende.
+    </string>
+
+    <string name="musik2">
+        Keunikan dari Sato adalah alat musik ini terbuat dari bila atau labu hutan. Dulu Sato dimainkan sendirian untuk mengusir kesepian di tengah kebun atau di rumah. Sato juga biasa dimainkan bersamaan selama ritual adat.
+        Penggunaan Sato yang sempat menghilang, perlahan bangkit kembali dengan menampilkan permainannya pada berbagai pentas di tingkat kabupaten. Sato dibuat tidak menggunakan sembarang labu, tetapi labu hutan yang banyak dijumpai di hutan sekitar Waturaka. Labu hutan ini pun sering digunakan untuk wadah penyimpan air ataupun sirih pinang.
+        Biasanya dipakai labu yang sudah tua, dibelah dan dibuang isinya lalu dikeringkan sampai benar-benar kering dan berwarna kecokelatan, baru dapat dipergunakan.
+    </string>
+
+    <string name="musik3">
+        Kesulitan mencari buah labu untuk membuat alat musik saat ini, kadang menyebabkan Sato juga sering dibuat dari buah Maja atau batok kelapa berbentuk bulat dan berukuran besar. Namun demikian, Sato berbahan labu hutan lah yang tebaik, karena memiliki bunyi yang khas.
+    </string>
+
+    <string name="musik4">
+        Sato pada dasarnya merupakan alat musik gesek sama seperti biola. Teknik memainkannya pun hampir sama. Dahulu, dawai Sato dibuat dari serat daun lidah buaya yang dikeringkan lalu dijalin dengan getah kenari. Saat ini, senarnya menggunakan senar gitar nomor 4. Alat geseknya berbentuk busur kecil dengan tali dari bahan ijuk.
+    </string>
+
+    <!-- Rumah Adat -->
+
+    <string name="rumah1">
+        Jika berkunjung ke Kabupaten Ende, jangan lupakan menyempatkan diri datang ke Kampung Adat Wologai.  Kampung yang terletak di ketinggian sekitar 1.045 mdpl merupakan salah satu kampung adat tersisa yang masih ada di Flores. Diperkirakan usianya sudah sekitar 800 tahun.
+        Satu hal unik dari Wologai adalah rumah adat Sa’o Ria yang mana arsitektur bangunannya yang berbentuk kerucut. Rumah-rumah dibangun melingkar dan ada tiga tingkatan dimana setiap tingkatannya disusun bebatuan ceper di atas tanah yang sekelilingnya dibangun rumah-rumah. Semakin ke atas, pelataran semakin sempit menyerupai kerucut.
+    </string>
+
+    <string name="rumah2">
+        Deretan rumah panggung di kampung ini dibangun melingkar mengitari Tubu Kanga, sebuah pelataran yang paling tinggi yang biasa dipakai sebagai tempat digelarnya ritual adat. Batu ceper yang terdapat di tengah digunakan serupa altar untuk meletakan persembahan bagi leluhur dan sang pencipta.
+        Rumah panggung ini dibuat dari kayu yang diletakan di atas 16 batu ceper yang disusun tegak untuk dijadikan tiang dasar penopang bangunan ini. Bangunan dengan panjang sekitar 7 meter dengan lebar sekitar 5 meter ini memiliki atap berbentuk kerucut yang dibuat dari alang-alang atau ijuk. Tinggi banguan rumah sekitar 4 meter sementara atapnya sekitar 3 meter.
+    </string>
+
+    <string name="rumah3">
+        Mencermati rumah adat Sa’o Ria di Wologai ini mirip dengan rumah adat lainnya milik etnis Lio. Bagian kolong rumah (lewu) dahulunya dipergunakan untuk memelihara ternak seperti babi dan  ayam. Ruang tengah digunakan sebagai tempat tinggal, sedangkan loteng difungsikan sebagai tempat menyimpan barang-barang yang akan digunakan pada saat ritual adat.
+        untuk membangun rumah adat tidak boleh sembarang. Perlu didahului dengan ritual adat Naka Wisu. Yaitu aturan memotong pohon di hutan untuk digunakan sebagai tiang penyangga rumah. Ritualnya harus dilakukan pukul 12 malam, dengan terlebih dahulu perlu menyembelih seekor ayam.
+    </string>
+
+    <!-- Pakaian Adat -->
+
+    <string name="pakaian1">
+        Lambu adalah merupakan baju tradisional untuk perempuan yang asli berwarna hitam namun seiring perkembangan jaman jenis dan motif kain bajunya bervariasi .
+        Lawo Sarung yang dipakai oleh Perempuan dengan berbagai motif dan warna, ada yang menggunakan bahan sintetis dan ada yang menggunakan bahan pelestarian seperti Tarum dan Mengkudu , semakin asli dan bagus motifnya semakin mahal harga sarungnya. Perempuan mengenakan lambu, Lawo dengan tatanan rambut yang di konde (Wege) dalam bahasa Ende /lio Setiap upacara / ritual adat selalu menggunakan Lambu lawo.
+    </string>
+
+    <string name="pakaian2">
+        Lawo ialah semacam sarung yang slalu digunakan oleh wanita (anak/ibu) suku Lio di tenda. Lawo juga biasa digunakan untuk acara pernikahan suku Lio dalam mengantarkan Belis selain itu Lawo biasa dipakai dibagian bawah (Yaitu dari Pinggang kebawah seperti Rok). Lawo sendiri mempunyai banyak corak dan motif (biasa lawo berwarna coklat,merah,  kuning) dimana pembuatannya membutuhkan waktu yang sangat lama (berbulan – bulan ) karna orang suku Lio terdahulu masih menggunakan bahan alami.
+    </string>
+
+    <string name="pakaian3">
+        Ragi ialah sarung yang biasa digunakan oleh Pria suku Lio di Tenda. Ragi juga biasa digunakan untuk acara pernikahan suku Lio dan pembuatannya pun menggunakan waktu yang sangat lama sistem pemakaiannya juga sama dengan Lawo. Pembuatan nya hampir sama dengan lawo akan tetapi yang membedakan nya ialah dari Motif dan warna untuk Ragi sendiri menggunakan warna Hitan dan Hijau. (Warna jaman dahulu).
+    </string>
+
+    <string name="pakaian4">
+        Luka ialah selendang yang biasa digunakan oleh Wanita dan biasa dipakai dibagian atas wanita (seperti Baju). Sistem pembuatan nya sama dengan Lawo maupun Ragi hanya saja bentuk nya yang membedakan dari ketiga nya.
+    </string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuUpacara"
+        android:title="Upacara Adat"
+        android:icon="@drawable/ic_image_24dp"/>
+    <item
+        android:id="@+id/menuTarian"
+        android:title="Tarian Adat"
+        android:icon="@drawable/ic_person_24dp"/>
+    <item
+        android:id="@+id/menuRumah"
+        android:title="Rumah Adat"
+        android:icon="@drawable/ic_image_24dp"/>
+    <item
+        android:id="@+id/menuPakaian"
+        android:title="Pakaian Adat"
+        android:icon="@drawable/ic_image_24dp"/>
+    <item
+        android:id="@+id/menuMusik"
+        android:title="Alat Musik"
+        android:icon="@drawable/ic_image_24dp"/>
+</menu>

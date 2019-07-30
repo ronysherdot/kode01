@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RumahActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/toolbar" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <com.synnapps.carouselview.CarouselView
+                            android:id="@+id/carouselView"
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            app:animateOnBoundary="true"
+                            android:layout_margin="20dp"
+                            app:autoPlay="true">
+
+                        </com.synnapps.carouselview.CarouselView>
+
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:id="@+id/txtRumah1"
+                            android:text="@string/rumah1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:id="@+id/txtRumah2"
+                            android:text="@string/rumah2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/txtRumah3"
+                            android:text="@string/rumah3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
