@@ -40,7 +40,7 @@
                     android:layout_marginTop="40dp"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="250dp">
+                    android:layout_height="300dp">
 
                     <ImageView
                         android:scaleType="fitXY"
@@ -48,25 +48,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                    <!--<androidx.cardview.widget.CardView-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="match_parent">-->
-
-                        <!--&lt;!&ndash;<com.synnapps.carouselview.CarouselView&ndash;&gt;-->
-                            <!--&lt;!&ndash;android:id="@+id/carouselView"&ndash;&gt;-->
-                            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
-                            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
-                            <!--&lt;!&ndash;app:animateOnBoundary="true"&ndash;&gt;-->
-                            <!--&lt;!&ndash;app:autoPlay="true"/>&ndash;&gt;-->
-
-                    <!--</androidx.cardview.widget.CardView>-->
-
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="60dp"
                     android:orientation="vertical">
 
                     <LinearLayout
@@ -76,6 +63,7 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
+                            android:layout_marginEnd="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
@@ -100,7 +88,7 @@
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_info_outline_24dp" />
+                                        android:src="@drawable/ikon_sejarah" />
 
                                 </LinearLayout>
 
@@ -129,7 +117,7 @@
                                 android:id="@+id/cardVisit"
                                 android:layout_width="60dp"
                                 android:layout_height="60dp"
-                                android:backgroundTint="#1f5161"
+                                android:backgroundTint="#1f5451"
                                 app:cardCornerRadius="80dp"
                                 app:cardElevation="3dp">
 
@@ -145,7 +133,7 @@
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_info_outline_24dp" />
+                                        android:src="@drawable/ikon_visit" />
 
                                 </LinearLayout>
 
@@ -164,6 +152,7 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:layout_marginStart="10dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
@@ -188,7 +177,7 @@
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_event_available_24dp" />
+                                        android:src="@drawable/ikon_budaya" />
 
                                 </LinearLayout>
 
@@ -217,7 +206,7 @@
 
                         <LinearLayout
                             android:layout_gravity="center"
-                            android:layout_marginEnd="15dp"
+                            android:layout_marginEnd="20dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
@@ -242,7 +231,7 @@
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_image_24dp" />
+                                        android:src="@drawable/ikon_galeri" />
 
                                 </LinearLayout>
 
@@ -261,7 +250,7 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginStart="15dp"
+                            android:layout_marginStart="20dp"
                             android:gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -287,7 +276,7 @@
                                         android:layout_height="40dp"
                                         android:layout_gravity="center"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_person_24dp" />
+                                        android:src="@drawable/ikon_tentang" />
 
                                 </LinearLayout>
 
@@ -304,6 +293,8 @@
                                 android:textSize="10sp" />
 
                         </LinearLayout>
+
+
 
                     </LinearLayout>
 

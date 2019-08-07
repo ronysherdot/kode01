@@ -4,8 +4,4 @@
         android:id="@+id/galeri1"
         android:title="Foto"
         android:icon="@drawable/ic_event_note_24dp"/>
-    <item
-        android:id="@+id/galeri2"
-        android:title="Video"
-        android:icon="@drawable/ic_event_note_24dp"/>
 </menu>

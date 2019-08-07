@@ -62,6 +62,15 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
+                        <com.uncopt.android.widget.text.justify.JustifiedTextView
+                            android:id="@+id/txtSejarah3"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="@string/sejarahEnde3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
                     </LinearLayout>
 
                 </LinearLayout>

@@ -5,10 +5,20 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ViewListener;
 
 public class UpacaraActivity extends AppCompatActivity {
 
     Toolbar toolbar;
+    CarouselView carouselView;
+    int[] carouselMenu = {
+            R.drawable.tarian1, R.drawable.tarian2
+    };
 
     @Override
     public void onBackPressed() {
@@ -22,9 +32,27 @@ public class UpacaraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_upacara);
 
+        carouselView = findViewById(R.id.carouselView);
+        carouselView.setViewListener(viewListener);
+        carouselView.setPageCount(carouselMenu.length);
+        carouselView.setSlideInterval(4000);
+
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Upacara Adat");
         toolbar.setNavigationIcon(R.drawable.ic_event_available_24dp);
     }
+
+    ViewListener viewListener = new ViewListener() {
+        @Override
+        public View setViewForPosition(int position) {
+            View carouselSet = getLayoutInflater().inflate(R.layout.viewing, null);
+
+            ImageView carouselImage = carouselSet.findViewById(R.id.carouselImage);
+            carouselImage.setImageResource(carouselMenu[position]);
+            carouselView.setIndicatorGravity(Gravity.CENTER_HORIZONTAL| Gravity.TOP);
+
+            return carouselSet;
+        }
+    };
 }

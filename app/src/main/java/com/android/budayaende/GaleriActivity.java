@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -54,10 +55,25 @@ public class GaleriActivity extends AppCompatActivity implements BottomNavigatio
             case R.id.galeri1:
                 fragment = new FotoActivity();
                 break;
-            case R.id.galeri2:
-                fragment = new VideoActivity();
-                break;
         }
         return loadFragment(fragment);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.tab_item, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.videoLink:
+                Intent video = new Intent(GaleriActivity.this, VideoActivity.class);
+                startActivity(video);
+                finish();
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

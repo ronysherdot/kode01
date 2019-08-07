@@ -21,7 +21,7 @@ public class SejarahActivity extends AppCompatActivity {
             R.drawable.example1, R.drawable.example2
     };
 
-    JustifiedTextView txtSejarah1, txtSejarah2;
+    JustifiedTextView txtSejarah1, txtSejarah2, txtSejarah3, txtSejarah4;
 
     @Override
     public void onBackPressed() {
@@ -37,6 +37,7 @@ public class SejarahActivity extends AppCompatActivity {
 
         txtSejarah1 = findViewById(R.id.txtSejarah1);
         txtSejarah2 = findViewById(R.id.txtSejarah2);
+        txtSejarah3 = findViewById(R.id.txtSejarah3);
 
         carouselView = findViewById(R.id.carouselView);
         carouselView.setViewListener(viewListener);
