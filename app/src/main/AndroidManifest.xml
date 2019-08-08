@@ -24,7 +24,6 @@
         <activity android:name=".RumahActivity" />
         <activity android:name=".TarianActivity" />
         <activity android:name=".GaleriActivity" />
-        <activity android:name=".KebudayaanActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".SejarahActivity" />
         <activity android:name=".MenuActivity" />

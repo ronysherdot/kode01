@@ -40,7 +40,15 @@ public class UpacaraActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Upacara Adat");
-        toolbar.setNavigationIcon(R.drawable.ic_event_available_24dp);
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(UpacaraActivity.this, BudayaActivity.class);
+                startActivity(back);
+                finish();
+            }
+        });
     }
 
     ViewListener viewListener = new ViewListener() {

@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -32,6 +33,15 @@ public class GaleriActivity extends AppCompatActivity implements BottomNavigatio
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Galeri");
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(GaleriActivity.this, MenuActivity.class);
+                startActivity(back);
+                finish();
+            }
+        });
 
         loadFragment(new FotoActivity());
         bottomNavigationView = findViewById(R.id.bottomNavigation);

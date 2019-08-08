@@ -16,8 +16,9 @@ import android.widget.GridView;
 public class FotoActivity extends Fragment {
 
     GridView gridView;
+    private int adat3;
     int galeri1[] = {
-            R.drawable.example1, R.drawable.example2, R.drawable.example1
+            R.drawable.upacara1, R.drawable.upacara2, R.drawable.tarian1, R.drawable.tarian2, R.drawable.rumah_adat1, R.drawable.rumah_adat2,R.drawable.rumahadat3, R.drawable.pakaian_adat1, R.drawable.pakaian_adat2, R.drawable.pakaian_adat3, R.drawable.pakaian_adat4, R.drawable.pakaian_adat5, R.drawable.alat_musik1, R.drawable.alat_musik2, R.drawable.alat_musik3
     };
 
     @Nullable

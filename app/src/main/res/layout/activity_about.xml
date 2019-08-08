@@ -26,45 +26,39 @@
                     layout="@layout/toolbar" />
 
                 <LinearLayout
-                    android:layout_gravity="center"
-                    android:gravity="center"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <TextView
-                        android:gravity="center"
-                        android:text="Multimedia Interaktif ......"
-                        android:layout_marginBottom="50dp"
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tablayout"
+                        android:background="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imageProfile"
-                        android:layout_width="match_parent"
-                        android:layout_height="140dp"
-                        android:src="@drawable/example1"/>
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/profil1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
 
-                    <TextView
-                        android:text="NIM : "
-                        android:gravity="center"
-                        android:layout_marginTop="40dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/profil2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
 
-                    <TextView
-                        android:text="Nama : "
-                        android:gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/profil3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
 
-                    <TextView
-                        android:text="Prodi : "
-                        android:gravity="center"
-                        android:layout_marginTop="5dp"
+                    </com.google.android.material.tabs.TabLayout>
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="match_parent">
+
+                    </androidx.viewpager.widget.ViewPager>
 
                 </LinearLayout>
 

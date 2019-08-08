@@ -25,7 +25,7 @@ public class PakaianActivity extends AppCompatActivity {
     CarouselView carouselView;
     int[] carouselMenu = {
             R.drawable.pakaian_adat1, R.drawable.pakaian_adat2,
-            R.drawable.pakaian_adat3, R.drawable.pakaian_adat4, R.drawable.pakaian_adat5
+            R.drawable.pakaian_adat3
     };
 
     @Override
@@ -48,7 +48,15 @@ public class PakaianActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Pakaian Adat");
-        toolbar.setNavigationIcon(R.drawable.ic_event_available_24dp);
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(PakaianActivity.this, BudayaActivity.class);
+                startActivity(back);
+                finish();
+            }
+        });
     }
 
     ViewListener viewListener = new ViewListener() {

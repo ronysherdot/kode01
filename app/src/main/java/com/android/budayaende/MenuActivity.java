@@ -95,7 +95,7 @@ public class MenuActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Kebudayaan Ende");
-        toolbar.setNavigationIcon(R.drawable.ic_event_available_24dp);
+        getSupportActionBar().setTitle("KEBUDAYAAN ENDE");
+
     }
 }

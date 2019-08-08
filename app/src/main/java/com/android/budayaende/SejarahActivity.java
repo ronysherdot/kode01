@@ -18,7 +18,7 @@ public class SejarahActivity extends AppCompatActivity {
     Toolbar toolbar;
     CarouselView carouselView;
     int[] carouselMenu = {
-            R.drawable.example1, R.drawable.example2
+            R.drawable.sejarah1, R.drawable.sejarah2
     };
 
     JustifiedTextView txtSejarah1, txtSejarah2, txtSejarah3, txtSejarah4;
@@ -46,7 +46,16 @@ public class SejarahActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Sejarah Kebudayaan Ende");
+        getSupportActionBar().setTitle("Sejarah");
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(SejarahActivity.this, MenuActivity.class);
+                startActivity(back);
+                finish();
+            }
+        });
     }
 
     ViewListener viewListener = new ViewListener() {

@@ -27,8 +27,16 @@ public class BudayaActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Menu Kebudayaan");
-        toolbar.setNavigationIcon(R.drawable.ic_event_available_24dp);
+        getSupportActionBar().setTitle("Budaya");
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent back = new Intent(BudayaActivity.this, MenuActivity.class);
+                startActivity(back);
+                finish();
+            }
+        });
 
         cardUpacara = findViewById(R.id.cardUpacara);
         cardTari = findViewById(R.id.cardTari);
