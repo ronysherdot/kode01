@@ -118,4 +118,67 @@ Dua hari berturut-turut, Gawi Are Uta dan Gawi Are Uwi, dilaksanakan jam 15.00 s
     <string name="profil3">Pembimbing 2</string>
     <string name="title_activity_maps">Map</string>
 
+    <!-- Keterangan di Galeri -->
+
+    <string name="keterangan1">
+        Ritual Nggua Uwi (Upacara Syukuran untuk hasil panen)
+        Di Desa Adat Saga
+    </string>
+
+    <string name="keterangan2">
+        Proses Ritual Ngguwa Uwi di Desa Adat Saga
+    </string>
+
+    <string name="keterangan3">
+        Tarian Gawi yang dilakukan pada salah satu upacara adat
+    </string>
+
+    <string name="keterangan4">
+        Tarian Gawi salah satu tarian adat masyarakat Ende
+    </string>
+
+    <string name="keterangan5">
+        Testing
+    </string>
+
+    <string name="keterangan6">
+        Testing
+    </string>
+
+    <string name="keterangan7">
+        Testing
+    </string>
+
+    <string name="keterangan8">
+        Testing
+    </string>
+
+    <string name="keterangan9">
+        Testing
+    </string>
+
+    <string name="keterangan10">
+        Testing
+    </string>
+
+    <string name="keterangan11">
+        Testing
+    </string>
+
+    <string name="keterangan12">
+        Testing
+    </string>
+
+    <string name="keterangan13">
+        Testing
+    </string>
+
+    <string name="keterangan14">
+        Testing
+    </string>
+
+    <string name="keterangan15">
+        Testing
+    </string>
+
 </resources>

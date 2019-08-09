@@ -18,7 +18,17 @@ public class FotoActivity extends Fragment {
     GridView gridView;
     private int adat3;
     int galeri1[] = {
-            R.drawable.upacara1, R.drawable.upacara2, R.drawable.tarian1, R.drawable.tarian2, R.drawable.rumah_adat1, R.drawable.rumah_adat2,R.drawable.rumahadat3, R.drawable.pakaian_adat1, R.drawable.pakaian_adat2, R.drawable.pakaian_adat3, R.drawable.pakaian_adat4, R.drawable.pakaian_adat5, R.drawable.alat_musik1, R.drawable.alat_musik2, R.drawable.alat_musik3
+            R.drawable.upacara1, R.drawable.upacara2,
+            R.drawable.tarian1, R.drawable.tarian2,
+            R.drawable.rumah_adat1, R.drawable.rumah_adat2,
+            R.drawable.rumahadat3, R.drawable.pakaian_adat1,
+            R.drawable.pakaian_adat2, R.drawable.pakaian_adat3,
+            R.drawable.pakaian_adat4, R.drawable.pakaian_adat5,
+            R.drawable.alat_musik1, R.drawable.alat_musik2, R.drawable.alat_musik3
+    };
+
+    int keterangan[] = {
+            R.string.keterangan1, R.string.keterangan2
     };
 
     @Nullable
@@ -34,6 +44,7 @@ public class FotoActivity extends Fragment {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent detail = new Intent(view.getContext(), FotoDetailActivity.class);
                 detail.putExtra("image", galeri1[i]);
+                detail.putExtra("keterangan", keterangan[i]);
                 startActivity(detail);
             }
         });
