@@ -12,6 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -48,7 +54,6 @@
 
                         <androidx.cardview.widget.CardView
                             android:layout_margin="15dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -71,6 +76,20 @@
                                     <com.uncopt.android.widget.text.justify.JustifiedTextView
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:textSize="18sp"
+                                        android:textColor="#000"
+                                        android:textAlignment="center"
+                                        android:id="@+id/txtTarian"
+                                        android:text="Gawi"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:id="@+id/txtTarian1"
                                         android:text="@string/tarian1"
                                         android:layout_width="match_parent"
@@ -80,6 +99,8 @@
                                         android:layout_marginTop="20dp"
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:id="@+id/txtTarian2"
                                         android:text="@string/tarian2"
                                         android:layout_width="match_parent"
@@ -90,6 +111,8 @@
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
                                         android:layout_marginBottom="5dp"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:id="@+id/txtTarian3"
                                         android:text="@string/tarian3"
                                         android:layout_width="match_parent"

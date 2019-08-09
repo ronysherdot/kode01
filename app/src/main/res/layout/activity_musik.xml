@@ -12,6 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:src="@drawable/background"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -48,7 +54,6 @@
 
                         <androidx.cardview.widget.CardView
                             android:layout_margin="15dp"
-                            app:cardBackgroundColor="@color/colorPrimary"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
 
@@ -71,7 +76,21 @@
                                     <com.uncopt.android.widget.text.justify.JustifiedTextView
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:textSize="18sp"
+                                        android:textColor="#000"
+                                        android:textAlignment="center"
+                                        android:id="@+id/txtMusik"
+                                        android:text="Sato"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+
+                                    <com.uncopt.android.widget.text.justify.JustifiedTextView
+                                        android:layout_marginStart="5dp"
+                                        android:layout_marginEnd="5dp"
                                         android:id="@+id/txtMusik1"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:text="@string/musik1"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content" />
@@ -81,6 +100,8 @@
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
                                         android:id="@+id/txtMusik2"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:text="@string/musik2"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content" />
@@ -90,6 +111,8 @@
                                         android:layout_marginStart="5dp"
                                         android:layout_marginEnd="5dp"
                                         android:id="@+id/txtMusik3"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:text="@string/musik3"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content" />
@@ -100,6 +123,8 @@
                                         android:layout_marginEnd="5dp"
                                         android:layout_marginBottom="5dp"
                                         android:id="@+id/txtMusik4"
+                                        android:textSize="16sp"
+                                        android:textColor="#000"
                                         android:text="@string/musik4"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content" />

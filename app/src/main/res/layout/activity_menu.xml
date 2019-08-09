@@ -12,11 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!--<ImageView-->
-            <!--android:scaleType="centerCrop"-->
-            <!--android:src="@drawable/example1"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent" />-->
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -100,9 +100,10 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="SEJARAH"
+                                android:textStyle="bold"
                                 android:textAlignment="center"
                                 android:textColor="#000"
-                                android:textSize="10sp" />
+                                android:textSize="11sp" />
 
                         </LinearLayout>
 
@@ -145,9 +146,10 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="VISIT"
+                                android:textStyle="bold"
                                 android:textAlignment="center"
                                 android:textColor="#000"
-                                android:textSize="10sp" />
+                                android:textSize="11sp" />
 
                         </LinearLayout>
 
@@ -189,9 +191,10 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="BUDAYA"
+                                android:textStyle="bold"
                                 android:textAlignment="center"
                                 android:textColor="#000"
-                                android:textSize="10sp" />
+                                android:textSize="11sp" />
 
                         </LinearLayout>
 
@@ -243,9 +246,10 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="GALERI"
+                                android:textStyle="bold"
                                 android:textAlignment="center"
                                 android:textColor="#000"
-                                android:textSize="10sp" />
+                                android:textSize="11sp" />
 
                         </LinearLayout>
 
@@ -288,13 +292,12 @@
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
                                 android:text="TENTANG"
+                                android:textStyle="bold"
                                 android:textAlignment="center"
                                 android:textColor="#000"
-                                android:textSize="10sp" />
+                                android:textSize="11sp" />
 
                         </LinearLayout>
-
-
 
                     </LinearLayout>
 

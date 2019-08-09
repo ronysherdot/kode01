@@ -32,26 +32,23 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
-        <activity android:name=".Visit3Activity" />
-        <activity android:name=".Visit2Activity" />
-        <activity android:name=".Visit1Activity" />
-        <activity android:name=".VisitActivity" />
-        <activity android:name=".BudayaActivity" />
-        <activity android:name=".FotoDetailActivity" />
-        <activity android:name=".VideoActivity" />
-        <activity android:name=".UpacaraActivity" />
-        <activity android:name=".MusikActivity" />
-        <activity android:name=".PakaianActivity" />
-        <activity android:name=".RumahActivity" />
-        <activity android:name=".TarianActivity" />
-        <activity android:name=".GaleriActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".SejarahActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Visit3Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Visit2Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Visit1Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".VisitActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BudayaActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FotoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".VideoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".UpacaraActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MusikActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PakaianActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".RumahActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TarianActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".GaleriActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SejarahActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MenuActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

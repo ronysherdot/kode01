@@ -17,7 +17,8 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:src="@drawable/gradient"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -41,7 +42,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardVisit1"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp">
+                        android:layout_height="125dp">
 
                         <FrameLayout
                             android:layout_width="match_parent"
@@ -49,7 +50,7 @@
 
                             <ImageView
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/pakaian_adat1"
+                                android:src="@drawable/visit1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
 
@@ -60,7 +61,7 @@
 
                                 <TextView
                                     android:textColor="#fff"
-                                    android:text="Video 1"
+                                    android:text="Video Kota Ende"
                                     android:textStyle="bold"
                                     android:textSize="20sp"
                                     android:gravity="center"
@@ -76,7 +77,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardVisit2"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp">
+                        android:layout_height="125dp">
 
                         <FrameLayout
                             android:layout_width="match_parent"
@@ -84,7 +85,7 @@
 
                             <ImageView
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/rumah_adat2"
+                                android:src="@drawable/visit2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
 
@@ -95,7 +96,7 @@
 
                                 <TextView
                                     android:textColor="#fff"
-                                    android:text="Video 2"
+                                    android:text="Video Akomodasi"
                                     android:textStyle="bold"
                                     android:textSize="20sp"
                                     android:gravity="center"
@@ -111,7 +112,7 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardVisit3"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp">
+                        android:layout_height="125dp">
 
                         <FrameLayout
                             android:layout_width="match_parent"
@@ -119,7 +120,7 @@
 
                             <ImageView
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/alat_musik3"
+                                android:src="@drawable/visit3"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
 
