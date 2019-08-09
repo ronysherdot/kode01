@@ -16,34 +16,39 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <include
-                    android:id="@+id/toolbar"
-                    layout="@layout/toolbar" />
-
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <ImageView
-                        android:scaleType="centerCrop"
-                        android:id="@+id/imageDetail"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp" />
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/toolbar" />
 
-                    <TextView
-                        android:id="@+id/txtKeterangan"
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginTop="20dp"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/imageDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp" />
+
+                        <TextView
+                            android:layout_margin="20dp"
+                            android:id="@+id/txtKeterangan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
-
-            </LinearLayout>
 
         </FrameLayout>
 

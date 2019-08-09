@@ -28,7 +28,10 @@ public class FotoActivity extends Fragment {
     };
 
     int keterangan[] = {
-            R.string.keterangan1, R.string.keterangan2
+            R.string.keterangan1, R.string.keterangan2, R.string.keterangan3, R.string.keterangan4,
+            R.string.keterangan5, R.string.keterangan6, R.string.keterangan7, R.string.keterangan8,
+            R.string.keterangan9, R.string.keterangan10, R.string.keterangan11, R.string.keterangan12,
+            R.string.keterangan13, R.string.keterangan14, R.string.keterangan15
     };
 
     @Nullable
