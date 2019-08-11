@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.budayaende">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -19,7 +18,9 @@
         android:roundIcon="@drawable/itb_stikom_bali"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".DetailTarianActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DetailMusikActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DetailUpacaraActivity" android:screenOrientation="portrait"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,23 +33,48 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".Visit3Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Visit2Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".Visit1Activity" android:screenOrientation="portrait"/>
-        <activity android:name=".VisitActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".BudayaActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".FotoDetailActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".VideoActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".UpacaraActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MusikActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".PakaianActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".RumahActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".TarianActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".GaleriActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".AboutActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".SejarahActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MenuActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".Visit3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Visit1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VisitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BudayaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FotoDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PakaianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RumahActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GaleriActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SejarahActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

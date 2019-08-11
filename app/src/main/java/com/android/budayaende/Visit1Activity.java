@@ -14,7 +14,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
 public class Visit1Activity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener  {
 
     public static final String YOUTUBE_API = "AIzaSyB1ZQEhVXR8Fan9XRSCon-GX0zc2_6t5aQ";
-    public static final String VIDEO_ID = "a2Q2pXL_3zk";
+    public static final String VIDEO_ID = "4ejua31l-yU";
 
     @Override
     public void onBackPressed() {

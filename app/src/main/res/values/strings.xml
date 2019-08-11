@@ -118,6 +118,39 @@ Dua hari berturut-turut, Gawi Are Uta dan Gawi Are Uwi, dilaksanakan jam 15.00 s
     <string name="profil3">Pembimbing 2</string>
     <string name="title_activity_maps">Map</string>
 
+    <!-- Judul Konten -->
+
+    <string name="judulUpacara1">Nggua Uwi</string>
+    <string name="judulUpacara2">Pati Ka Du a Bapu Ata Mata</string>
+
+    <string name="judulTarian1">Gawi</string>
+    <string name="judulTarian2">Toja Napa Nuwa</string>
+
+    <string name="judulMusik1">Sato</string>
+    <string name="judulMusik2">Nggo Wani</string>
+
+    <!-- Konten Upacara 2 -->
+    <string name="kontenUpacara2">
+        Acara Pati Ka Du a Bapu Ata Mata merupakan salah satu acara adat yang diselenggarakan di puncak danau Kelimutu setiap tahun pada tanggal 14 Agustus, acara ini merupakan suatu momen yang menyatukan seluruh masyarakat lio yang berada disekitar Kawasan danau Kelimutu, yang secara tradisi memiliki ikatan religi tradisional dengan puncak kelimutu sebagai Kawasan arwah para leluhur. Acara adat ini mengandung arti memberi makan arwah para leluhur yang berupa daging babi, nasi, sirih pinang, tembakau, beras dan moke. Semua sajian tersebut ditaruh diatas batu yang menjadi Mesbah/altar sesajian dan dikelilingi oleh para mosalaki yang sebelumnya telah melantunkan doa-doa dalam bahasa adat.
+    </string>
+
+    <!-- Konten Tarian 2 -->
+    <string name="kontenTarian2">
+    Woge adalah gerak tari dengan mengandalkan kelincahan kaki dengan penuh energi dan dinamis , dilengkapi dengan sarana mbaku dan sau atau perisai dan pedang /parang. kalimat yang cocok dalam bahasa Ende Lio untuk menyebut Tari Perang adalah Toja Napa Nuwa.
+    setiap laki - laki yang pulang dari medan pertempuran selalu disambut dengan tarian Napa Nuwa yang diringi dengan alat musik tradisional setempat yaitu Nggo, Wani. tarian ini bisa juga dipentaskan oleh para pejuang yang pulang dari medan perang akan tetapi harus dipimpin oleh ketua adat. Dalam kurun waktu beberapa dekade terakhir, tarian ini dikembangkan sehingga dapat diperankan oleh siapa pun dan dikemudian dipadukan dengan tampilan para wanita Ende Lio untuk menambah semarak tarian tersebut. Busana yang digunakan untuk melakukan tarian ini adalah busana adat ende lio.
+    </string>
+
+    <!-- Konten Musik 2 -->
+    <string name="kontenMusik1">
+    Nggo atau Gong terdiri atas Nggo Lamba berjumlah empat buah yang bermanfaat sebagai pengiring derap para penari dan Nggo diri berjumlah satu buah yang bermanfaat sebagai pendukung Nggo lamba. Alat musik ini terbuat dari logam yang dibakar dan kemudian ditempah lalu dibentuk hampir menyerupai piringan, namun ada tonjolan didepan agar para pemusik bisa memukulnya dengan baik. Gong atau Nggo ada yang berukuran besar dan kecil yang tentunya menghasilkan nada yang berbeda - beda. Untuk menghasilkan suara yang terbaik saat dimainkan oleh para pemusik, Nggo Lamba harus digantung dengan seutas tali pada kayu yang sengaja dibuat terpisah agar antara Nggo yang satu tidak bersentuhan dengan Nggo lainnya. bagi masyarakat Ende Lio, setiap ketukan nada yang dimainkan mengandung makna ajakan dan spirit untuk para penari maupun pendengar supaya bisa ambil bagian dalam menunjukan ekspresinya lewat tarian.
+    </string>
+
+    <string name="kontenMusik2">
+        Wani dalam bahasa Indonesia artinya Waning atau Gendang atau juga Tambur. Sebenarnya alat musik ini lebih cocok disebut Tambur, karena bentuknya agak lonjong, dan mengecil dari atas kebawah seperti corong. Oleh masyarakat Ende Lio, waning sengaja dibuat agak lonjong dan berbeda dari jenis manapun supaya menghasilkan suara yang lebih nyaring. Proses pembuatan waning, tergolong lebih mudah ketimbang Gong atau Nggo karena alat musik ini umumnya terbuat batang pohon lontar, Rotan, dan kulit kerbau atau kulit kambing. Batang pohon lontar tadi berfungsi sebagai corong, rotan sebagai tali pengikat sedangkan kulit kerbau atau kambing tadi berfungsi sebagai pelapis dan penutup bagian atas yang nantinya jika dipukul, akan menghasilkan suara. Dalam memainkan alat musik jenis ini, pemain musik Waning atau Tambur bertugas sebagai pemimpin arransement supaya setiap ketukan Gong harus selaras dengan Tambur.
+    </string>
+
+
+
     <!-- Keterangan di Galeri -->
 
     <string name="keterangan1">

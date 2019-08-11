@@ -10,52 +10,32 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ViewListener;
 
-public class TarianActivity extends AppCompatActivity {
+public class Musik1Activity extends Fragment {
 
     Toolbar toolbar;
     CarouselView carouselView;
     int[] carouselMenu = {
-            R.drawable.tarian1, R.drawable.tarian2
+            R.drawable.alat_musik1, R.drawable.sato1
     };
 
+    @Nullable
     @Override
-    public void onBackPressed() {
-        Intent back = new Intent(TarianActivity.this, BudayaActivity.class);
-        startActivity(back);
-        finish();
-    }
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.activity_musik1, container, false);
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tarian);
-
-        carouselView = findViewById(R.id.carouselView);
+        carouselView = view.findViewById(R.id.carouselView);
         carouselView.setViewListener(viewListener);
         carouselView.setPageCount(carouselMenu.length);
         carouselView.setSlideInterval(4000);
 
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Tarian Adat");
-        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent back = new Intent(TarianActivity.this, BudayaActivity.class);
-                startActivity(back);
-                finish();
-            }
-        });
+        return view;
     }
 
     ViewListener viewListener = new ViewListener() {

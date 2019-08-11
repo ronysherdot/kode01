@@ -47,7 +47,7 @@ public class BudayaActivity extends AppCompatActivity {
         cardUpacara.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent upacara = new Intent(BudayaActivity.this, UpacaraActivity.class);
+                Intent upacara = new Intent(BudayaActivity.this, DetailUpacaraActivity.class);
                 startActivity(upacara);
                 finish();
             }
@@ -56,7 +56,7 @@ public class BudayaActivity extends AppCompatActivity {
         cardTari.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tari = new Intent(BudayaActivity.this, TarianActivity.class);
+                Intent tari = new Intent(BudayaActivity.this, DetailTarianActivity.class);
                 startActivity(tari);
                 finish();
             }
@@ -83,7 +83,7 @@ public class BudayaActivity extends AppCompatActivity {
         cardMusik.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent musik = new Intent(BudayaActivity.this, MusikActivity.class);
+                Intent musik = new Intent(BudayaActivity.this, DetailMusikActivity.class);
                 startActivity(musik);
                 finish();
             }

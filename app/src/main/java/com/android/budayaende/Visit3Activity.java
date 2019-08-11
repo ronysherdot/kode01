@@ -38,8 +38,9 @@ public class Visit3Activity extends AppCompatActivity implements OnMapReadyCallb
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        float zoomLevel = 13.0f;
+        LatLng latLng = new LatLng(-8.855307, 121.654081);
+        mMap.addMarker(new MarkerOptions().position(latLng).title("Kabupaten Ende"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoomLevel));
     }
 }
