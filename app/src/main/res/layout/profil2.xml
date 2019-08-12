@@ -37,12 +37,12 @@
                         android:src="@drawable/dosen1" />
 
                     <TextView
+                        android:textStyle="bold"
                         android:text="I MADE BUDI ADNYANA, S.Kom.,M.T."
                         android:gravity="center"
                         android:layout_marginTop="40dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
-
 
                 </LinearLayout>
 
